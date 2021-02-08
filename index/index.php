@@ -12,7 +12,6 @@ function encrypt($pswd, $text)
 	$kl = strlen($pswd);
 	$length = strlen($text);
 	
-	// iterate over each line in text
 	for ($i = 0; $i < $length; $i++)
 	{
 		if (ctype_alpha($text[$i]))

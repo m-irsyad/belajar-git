@@ -3,6 +3,9 @@
 	<title>grid</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 	<style>
+		.row {
+			margin-top:50px;
+		}
 		#round-btn {
 			border-radius:25px;
 		}
@@ -15,8 +18,11 @@
 		}
 		.team {
 			background:grey;
-			width:100px;
 			height:100px;
+			width:100px;
+		}
+		.center {
+			text-align:center;
 		}
 	</style>
 </head>
@@ -64,20 +70,33 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row center">
 			<div class="col" style="border:solid 1px">
-			<img src="../coffee18.png" alt="" srcset="" class="rounded-circle team">
+				<img src="../imgs/user.png" alt="" srcset="" class="rounded-circle team">
+				<p class="text-muted">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
 			</div>
 			<div class="col" style="border:solid 1px">
-			One of three columns
+				<img src="../imgs/user.png" alt="" srcset="" class="rounded-circle team">
+				<p class="text-muted">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
 			</div>
 			<div class="col" style="border:solid 1px">
-			One of three columns
+				<img src="../imgs/user.png" alt="" srcset="" class="rounded-circle team">
+				<p class="text-muted">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col" style="border:solid 1px">
-			One columns
+			<div class="col center" style="border:solid 1px">
+				<h1>Let's learn together</h1>
+				<p class="text-muted">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+				<button type="button" class="btn btn-primary" id="round-btn">Get Started</button>
 			</div>
 		</div>
 	</div>

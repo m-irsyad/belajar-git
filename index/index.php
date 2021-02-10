@@ -38,15 +38,13 @@
 			left: 0;
 			bottom: 0;
 			width: 100%;
-			background-color: red;
-			color: white;
-			text-align: center;
+			clear:both;
 		}
 	</style>
 </head>
 <body>
 	<div class="container">
-		<div class="row">
+		<div class="row" style="margin-left:5%; margin-right:5%;">
 			<div class="col">
 				<h1 class="header1">1 on 1 Tutoring</h1>
 				<p class="text-muted">
@@ -59,31 +57,31 @@
 				<img src="../imgs/Teacher-rafiki.png" width=500px>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row" style="margin-left:5%; margin-right:5%;">
 			<div class="col-6">
 			<h1 class="header2">Our Process & <br/>Philosophy</h1>
-			<p>
+			<p style="margin-top:20px;">
 				<span class="fa-stack fa-1x" style="vertical-align:middle;">
 					<i class="fa fa-circle fa-stack-2x blue-icon"></i>
 					<i class="fa fa-check fa-stack-1x fa-inverse"></i>
 				</span>
 				Lorem ipsum dolor sit amet
 			</p>
-			<p>
+			<p style="margin-top:20px;">
 				<span class="fa-stack fa-1x" style="vertical-align:middle;">
 					<i class="fa fa-circle fa-stack-2x blue-icon"></i>
 					<i class="fa fa-check fa-stack-1x fa-inverse"></i>
 				</span>
 				Lorem ipsum dolor sit amet
 			</p>
-			<p>
+			<p style="margin-top:20px;">
 				<span class="fa-stack fa-1x" style="vertical-align:middle;">
 					<i class="fa fa-circle fa-stack-2x blue-icon"></i>
 					<i class="fa fa-check fa-stack-1x fa-inverse"></i>
 				</span>
 				Lorem ipsum dolor sit amet
 			</p>
-			<p>
+			<p style="margin-top:20px;">
 				<span class="fa-stack fa-1x" style="vertical-align:middle;">
 					<i class="fa fa-circle fa-stack-2x blue-icon"></i>
 					<i class="fa fa-check fa-stack-1x fa-inverse"></i>
@@ -91,11 +89,12 @@
 				Lorem ipsum dolor sit amet
 			</p>
 			</div>
-			<div class="col-4">
+			<div class="col-5">
 				<h3 class="left-border">"I can't believe how fast my scores improved!"</h1>
-				<p class="text-muted">
+				<p class="text-muted"">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
+				<button type="button" class="btn btn-primary rounded-pill">VIEW TESTIMONIALS</button>
 			</div>
 		</div>
 		<div class="row">
@@ -108,7 +107,7 @@
 						</p>
 					</div>
 					<div class="col-3">
-					<button type="button" class="btn btn-dark rounded-pill">Select Date Time</button>
+					<button type="button" class="btn btn-dark rounded-pill">SELECT A DATE & TIME</button>
 					</div>
 				</div>
 			</div>
@@ -148,20 +147,23 @@
 				<p class="text-muted">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 				</p>
-				<button type="button" class="btn btn-primary rounded-pill">Get Started</button>
+				<button type="button" class="btn btn-primary rounded-pill">GET STARTED</button>
 				<div class="row">
 					<div class="col">
 						<i class="fa fa-mobile-alt fa-3x"></i>
+						<p class="text-muted">(+62)8979897256</p>
 					</div>
 					<div class="col">
 						<i class="fa fa-comment fa-3x"></i>
+						<p class="text-muted">mid.irsyad12@gmail.com</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="footer">
-		asd
+		<img src="../imgs/Professor-rafiki.png" alt="" style="width:500px; float:left;">
+		<img src="../imgs/Teacher-bro.png" alt="" style="width:500px; float:right;">
 	</div>
 </body>
 </html>

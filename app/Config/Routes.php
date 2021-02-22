@@ -23,8 +23,6 @@ $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 $routes->setAutoRoute(true);
-$routes->get('/news', 'News::index');
-$routes->get('/news/(:any)', 'News::viewNews/$1');
 
 /*
  * --------------------------------------------------------------------
@@ -35,6 +33,11 @@ $routes->get('/news/(:any)', 'News::viewNews/$1');
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('/about', 'Page::about');
+$routes->get('/contact', 'Page::contact');
+$routes->get('/faqs', 'Page::faqs');
+$routes->get('/news', 'News::index');
+$routes->get('/news/(:any)', 'News::viewNews/$1');
 
 /*
  * --------------------------------------------------------------------

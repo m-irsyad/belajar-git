@@ -17,4 +17,9 @@ class Page extends BaseController
 		echo "Faqs page";
 	}
 
+	public function tos()
+	{
+		echo "Halaman Term of Service";
+	}
+
 }

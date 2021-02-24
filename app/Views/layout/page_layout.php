@@ -7,7 +7,7 @@
 	<title>Protal Berita Codeigniter</title>
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css') ?>" />
+	<link rel="stylesheet" href="<?= base_url('public/css/bootstrap.min.css') ?>" />
 </head>
 
 <body>
